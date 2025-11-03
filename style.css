@@ -1,0 +1,58 @@
+html body {
+    background-color: rgb(247, 247, 242);
+    font-family: Montserrat;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.narrow {
+    max-width: 500px !important;
+    margin: 0 auto;
+}
+
+.green {
+    background-color: rgb(126, 148, 118) !important;
+}
+
+.greentransparent {
+    background-color: rgba(126, 148, 118, 0.5);
+}
+
+.lrpadding {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.roundcorner {
+    border-radius: 20px !important;
+}
+
+.narrowinput {
+    max-width: 50px !important;
+}
+
+h3 {
+    font-weight: 300 !important;
+}
+
+input {
+    border-radius: 20px !important;
+    border-color: rgb(126, 148, 118) !important;
+    width: 100% !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.footer {
+    margin-top: 0px;
+    letter-spacing: 5px;
+    bottom: 0;
+	vertical-align: middle;
+	position: fixed;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	height: 45px;
+}
