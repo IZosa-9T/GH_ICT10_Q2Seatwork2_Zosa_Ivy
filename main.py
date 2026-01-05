@@ -35,4 +35,12 @@ def submit(e):
 
     display(f'{StudentFname} {StudentLname}', target="studentnametitle")
     display(f'{Student_Summary}', target="studentsummary")
+
     display(f'Your general weighted average is . . . {GWAround}', target="output")
+
+    document.getElementById('output2').innerHTML = ' '
+
+    if GWAround > 75:
+        display(f'Good job this quarter, you passed.', target='output2')
+    else:
+        display(f'You failed, better luck next time.', target='output2'
